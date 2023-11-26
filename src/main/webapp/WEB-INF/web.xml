@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Servlet_Register_Login</display-name>
+  <welcome-file-list>
+    <welcome-file>Register.html</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+  <servlet-name>Register</servlet-name>
+  <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Register</servlet-name>
+  <servlet-class>Org.Pentagon.App.Register</servlet-class>
+  </servlet>
+  <welcome-file-list>
+    <welcome-file>Login_Page.html</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+  <servlet-name>Login_Page</servlet-name>
+  <url-pattern>/Login_Page</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Login_Page</servlet-name>
+  <servlet-class>Org.Pentagon.App.Login_Page</servlet-class>
+  </servlet>
+  <welcome-file-list>
+    <welcome-file>Profile.html</welcome-file>
+  </welcome-file-list>
+</web-app>
